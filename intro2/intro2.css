@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #111;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav-area {
+	margin-top: -7px;
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+}
+
+.logo {
+	margin: 70px 60px;
+	height: 60px;
+	float: left;
+	color: #fff;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+.menu-area {
+	float: right;
+	list-style: none;
+	margin: 30px;
+}
+.menu-area li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.menu-area li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+}
+.menu-area li.active a {
+	color: deepskyblue;
+}
+.menu-area li a:hover {
+	color: deepskyblue;
+}
+
+.wrapper h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 70px 0 0;
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 80px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	padding: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.box-area {
+	width: 350px;
+	margin: 25px;
+	padding: 40px;
+	background-color: #f5f5f5;
+	transition: all 0.6s ease-in-out;
+}
+.box-area .icon-area {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.icon-area i {
+	font-size: 70px;
+	color: #262626;
+}
+.box-area h6 {
+	margin-bottom: 10px;
+	color: #262626;
+	font-size: 50px;
+	font-family: bebas neue;
+}
+.box-area:hover {
+	background-color: #161619;
+	box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+.box-area:hover i {
+	color: #fff;
+}
+.box-area:hover h6 {
+	color: #fff;
+}
+.box-area:hover p {
+	color: #fff;
+}

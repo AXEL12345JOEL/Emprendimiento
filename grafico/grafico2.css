@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #111;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav-area {
+	margin-top: -7px;
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+}
+
+.logo {
+	margin: 10px 50px;
+	height: 60px;
+	float: left;
+	color: #fff;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+.menu-area {
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+.menu-area li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.menu-area li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+}
+.menu-area li.active a {
+	color: deepskyblue;
+}
+.menu-area li a:hover {
+	color: deepskyblue;
+}
+
+.wrapper h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 70px 0 0;
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 50px;
+}
+
+p {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 70px 0 0;
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 30px;
+}
+.wrapper h2 {
+	text-align: left;
+	color: #fff;
+	font-weight: 100px;
+	font-size: 20px;
+}
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: -70px;
+}
+.line {
+	height: 35px;
+	max-width: 800px;
+	margin: 0 auto 10px auto;
+	line-height: 35px;
+	font-size: 15px;
+	color: white;
+	padding: 0 0 0 10px;
+	position: relative;
+	background: #262626;
+	border-radius: 50px;
+	z-index: -2;
+	font-weight: 900;
+	box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+}
+.line::before {
+	content: '';
+	width: 100%;
+	position: absolute;
+	left: 0;
+	height: 25px;
+	top: 0;
+	z-index: -2;
+}
+.line::after {
+	content: '';
+	background: linear-gradient(45deg, #ee0979, #ff6a00);
+	height: 35px;
+	transition: 0.7s;
+	display: block;
+	width: 100%;
+	animation: animate 1 4s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 50px;
+}
+.line1::after {
+	max-width: 50%;
+}
+.line2::after {
+	max-width: 35%;
+}
+.line3::after {
+	max-width: 10%;
+}
+.line4::after {
+	max-width: 5%;
+}
+@keyframes animate {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100%;
+	}
+}

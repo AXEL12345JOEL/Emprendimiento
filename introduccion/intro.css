@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #111;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-area {
+	margin-top: -7px;
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+}
+
+.logo {
+	margin: 50px 60px;
+	height: 60px;
+	float: left;
+	color: red;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+.menu-area {
+	float: right;
+	list-style: none;
+	margin: 30px;
+}
+.menu-area li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.menu-area li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+}
+.menu-area li.active a {
+	color: deepskyblue;
+}
+.menu-area li a:hover {
+	color: deepskyblue;
+}
+
+.wrapper h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 70px 0 0;
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 80px;
+}
+
+.hola{
+    text-align: center;
+    color: white;
+
+}
+
+.hola1 h2{
+    color: red;
+    text-align: center;
+
+}
